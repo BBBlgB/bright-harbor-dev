@@ -1,6 +1,8 @@
 schema: hugoblox/author/v1
 slug: me
 is_owner: true
+avatar:
+  filename: avatar.jpg
 name:
   display: 沈博文 (Bowen Shen)
   given: Bowen
@@ -12,6 +14,8 @@ postnominals:
   - PhD
   - MIEEE
 role: Ph.D. Student
+status:
+  icon: ":sparkles:"
 bio: |
   Bowen Shen is a Ph.D. student at Harbin Institute of Technology, Shenzhen, and jointly cultivated at Peng Cheng National Laboratory, currently exploring the Secure Multi-party Computation, Privacy-Preserving Machine Learning and Secure Inference in Transformers.
 
@@ -60,7 +64,7 @@ experience:
     start: 2022-10-01
     end: 2023-10-01
     summary: |
-      	参与“基于SecureNN密态协议的研究和优化”，实现SecureNN的NN样例，并对接隐语原生框架，验证其通信和带宽消耗，以及其在部分算子下相比于ABY3的适用性；参与实现SecureNN的5个基本算子，针对卷积层、ReLU、网络结构、除法算子以及硬件加速方面进行MPC优化，实现既定算子下速度超过ABY3。
+      参与“基于SecureNN密态协议的研究和优化”，实现SecureNN的NN样例，并对接隐语原生框架，验证其通信和带宽消耗，以及其在部分算子下相比于ABY3的适用性；参与实现SecureNN的5个基本算子，针对卷积层、ReLU、网络结构、除法算子以及硬件加速方面进行MPC优化，实现既定算子下速度超过ABY3。
 
 skills:
   - name: Technical Skills
