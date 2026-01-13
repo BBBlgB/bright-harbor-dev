@@ -1,7 +1,12 @@
 ---
-title: "An example preprint / working paper"
+title: "SecMoE: Communication-Efficient Secure MoE Inference via Select-Then Compute."
 authors:
-- me
+  - "Bowen Shen"
+  - "Yuyue Chen"
+  - "Peng Yang"
+  - "Bin Zhang*"
+  - "Xi Zhang"
+  - "Zoe L. Jiang*"
 date: "2019-04-07T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
@@ -30,25 +35,25 @@ hugoblox:
   ids:
     arxiv: 1512.04133v1
 
-links:
-- type: preprint
-  provider: arxiv
-  id: 1512.04133v1
-- type: code
-  url: https://github.com/HugoBlox/kit
-- type: slides
-  url: https://www.slideshare.net/
-- type: dataset
-  url: "#"
-- type: poster
-  url: "#"
-- type: source
-  url: "#"
-- type: video
-  url: https://youtube.com
-- type: custom
-  label: Custom Link
-  url: http://example.org
+# links:
+# - type: preprint
+#   provider: arxiv
+#   id: 1512.04133v1
+# - type: code
+#   url: https://github.com/HugoBlox/kit
+# - type: slides
+#   url: https://www.slideshare.net/
+# - type: dataset
+#   url: "#"
+# - type: poster
+#   url: "#"
+# - type: source
+#   url: "#"
+# - type: video
+#   url: https://youtube.com
+# - type: custom
+#   label: Custom Link
+#   url: http://example.org
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 

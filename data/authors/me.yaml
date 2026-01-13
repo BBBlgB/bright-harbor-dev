@@ -2,7 +2,7 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Bowen Shen
+  display: 沈博文 (Bowen Shen)
   given: Bowen
   family: Shen
   alternate: ''  # Example: 王伟
@@ -11,8 +11,6 @@ name:
 postnominals:
   - PhD
   - MIEEE
-status:
-  icon: "☕️"
 role: Ph.D. Student
 bio: |
   Bowen Shen is a Ph.D. student at Harbin Institute of Technology, Shenzhen, and jointly cultivated at Peng Cheng National Laboratory, currently exploring the Secure Multi-party Computation, Privacy-Preserving Machine Learning and Secure Inference in Transformers.
@@ -20,15 +18,15 @@ bio: |
 links:
   - icon: at-symbol
     url: mailto:shenbowen@stu.hit.edu.cn
-    label: E-mail Me
+    label: E-mail Me 
   - icon: academicons/google-scholar
     url: https://scholar.google.com.pk/citations?hl=zh-CN&user=QXRh7LgAAAAJ
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Secure Multi-party Computation
+  - Privacy-Preserving Machine Learning
+  - Secure Inference in Transformers
+
 
 education:
   - degree: Ph.D of Computer Science and Technology
@@ -45,21 +43,24 @@ education:
     end: 2021-07-01
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: 算法工程师
+    org: 哈工大-浦发银行金融网络空间安全联合创新中心
+    start: 2024-02-01
+    end: 2024-09-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      合作项目“现有FATE加密算法的安全漏洞研究”。旨在针对现有联邦学习FATE框架下算法的安全漏洞进行分析，针对安全性和效率问题提出面向FATE框架的隐私计算算法。负责设计并开发基于安全多方计算和同态加密的高效安全两方计算协议，代码验收并整合进波塞冬框架，申请发明专利1项。
+  - role: 算法工程师
+    org: 深圳重大-跨域隐私计算平台项目
+    start: 2024-02-01
+    end: 2025-12-01
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      深圳市纵向项目“基于密态协同计算的全过程跨域数据共享平台”。旨在解决安全多方计算难以在大规模密态数据协同计算中落地应用等问题，设计并实现低通信算法及应用。负责设计并实现隐私计算平台新型隐私保护机器学习训练方法。
+  - role: 算法工程师
+    org: 蚂蚁隐私计算专项科研项目
+    start: 2022-10-01
+    end: 2023-10-01
+    summary: |
+      	参与“基于SecureNN密态协议的研究和优化”，实现SecureNN的NN样例，并对接隐语原生框架，验证其通信和带宽消耗，以及其在部分算子下相比于ABY3的适用性；参与实现SecureNN的5个基本算子，针对卷积层、ReLU、网络结构、除法算子以及硬件加速方面进行MPC优化，实现既定算子下速度超过ABY3。
 
 skills:
   - name: Technical Skills
