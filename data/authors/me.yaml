@@ -4,12 +4,12 @@ is_owner: true
 avatar:
   filename: avatar.jpg
 name:
-  display: 沈博文 (Bowen Shen)
+  display: 沈博文
   given: Bowen
   family: Shen
   alternate: ''  # Example: 王伟
   pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
+  pronouns: Bowen Shen
 postnominals:
   - PhD
   - MIEEE
